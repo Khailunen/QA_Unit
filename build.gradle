@@ -9,6 +9,13 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
+test {
+    useJUnit()
+}
 //dependencies {
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
@@ -17,11 +24,11 @@ repositories {
 //test {
 //    useJUnitPlatform()
 //}
-dependencies {
-    testImplementation 'org.testng:testng:7.1.0'
-
-}
-
-test {
-    useTestNG()
-}
+//dependencies {
+//    testImplementation 'org.testng:testng:7.1.0'
+//
+//}
+//
+//test {
+//    useTestNG()
+//}
